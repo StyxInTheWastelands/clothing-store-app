@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useFavorites } from '../context/FavoritesContext';
 import { useCart } from '../context/CartContext';
+import { useToast } from '../context/ToastContext';
+import { isSessionValid } from '../utils/auth';
+import SizePickerSheet from '../components/SizePickerSheet';
 import usePageMeta from '../hooks/usePageMeta';
 
 function Favorites() {
@@ -10,6 +13,8 @@ function Favorites() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const { favorites: items, toggleFavorite } = useFavorites();
   const { addToCart } = useCart();
+  const { showToast } = useToast();
+  const [sizePickerProduct, setSizePickerProduct] = useState(null);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
@@ -19,6 +24,20 @@ function Favorites() {
 
   const removeItem = (item) => {
     toggleFavorite(item);
+  };
+
+  const handleAddToCart = (item) => {
+    if (!isSessionValid()) {
+      showToast('Musisz się zalogować, aby dodać produkt do koszyka!', 'error');
+      navigate('/auth');
+      return;
+    }
+    // Jeśli produkt ma więcej niż jeden rozmiar do wyboru — pytamy w dolnym okienku
+    if (item.sizes && item.sizes.length > 1) {
+      setSizePickerProduct(item);
+    } else {
+      addToCart(item, { size: (item.sizes && item.sizes[0]) || '' });
+    }
   };
 
   return (
@@ -103,7 +122,7 @@ function Favorites() {
                   </button>
 
                   <button
-                    onClick={() => addToCart(item, { size: (item.sizes && item.sizes[0]) || '' })}
+                    onClick={() => handleAddToCart(item)}
                     style={cartButtonStyle}
                   >
                     Do koszyka
@@ -131,11 +150,19 @@ function Favorites() {
         </div>
 
       </div>
+
+      {sizePickerProduct && (
+        <SizePickerSheet
+          product={sizePickerProduct}
+          onClose={() => setSizePickerProduct(null)}
+          onSelectSize={(size) => addToCart(sizePickerProduct, { size })}
+        />
+      )}
     </div>
   );
 }
 
-// STYLE 
+// STYLE
 const containerStyle = { minHeight: '80vh', backgroundColor: '#ffffff', color: '#1a1a1a', display: 'flex', justifyContent: 'center', padding: '60px 0', fontFamily: 'system-ui, -apple-system, sans-serif', boxSizing: 'border-box' };
 const pageTitleStyle = { fontSize: '28px', fontWeight: '800', letterSpacing: '0.5px', color: '#1a1a1a', margin: '0 0 10px 0' };
 const subtitleStyle = { fontSize: '14px', color: '#666666', margin: 0, lineHeight: '1.5' };

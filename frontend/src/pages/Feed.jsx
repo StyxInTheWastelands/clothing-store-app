@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { useFavorites } from '../context/FavoritesContext';
 import { useCart } from '../context/CartContext';
 import usePageMeta from '../hooks/usePageMeta';
+import SizePickerSheet from '../components/SizePickerSheet';
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
 const BATCH_SIZE = 10;
@@ -153,11 +154,13 @@ function Feed() {
   const [likedInSession, setLikedInSession] = useState([]);
   const [showMilestone, setShowMilestone] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 860);
+  const [sizePickerProduct, setSizePickerProduct] = useState(null);
 
   const seenIdsRef = useRef(new Set());
   const fetchingRef = useRef(false);
   const exhaustedRef = useRef(false);
   const topCardRef = useRef(null);
+  const pendingCartSizeRef = useRef(null);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 860);
@@ -209,7 +212,9 @@ function Feed() {
       setLikedInSession((prev) => [...prev, current]);
       setHint('Dodano do ulubionych');
     } else if (direction === 'cart') {
-      addToCart(current, { size: (current.sizes && current.sizes[0]) || '' });
+      const size = pendingCartSizeRef.current !== null ? pendingCartSizeRef.current : ((current.sizes && current.sizes[0]) || '');
+      pendingCartSizeRef.current = null;
+      addToCart(current, { size });
       setHint('Dodano do koszyka');
     } else {
       setHint('Pominięto');
@@ -220,6 +225,12 @@ function Feed() {
 
   const handleButton = (direction) => {
     if (!current) return;
+    // Jeśli produkt ma więcej niż jeden rozmiar do wyboru — pytamy w dolnym okienku,
+    // zamiast automatycznie brać pierwszy z listy
+    if (direction === 'cart' && current.sizes && current.sizes.length > 1) {
+      setSizePickerProduct(current);
+      return;
+    }
     topCardRef.current?.resolve(direction);
   };
 
@@ -272,6 +283,18 @@ function Feed() {
           items={likedInSession}
           onContinue={() => setShowMilestone(false)}
           onGoToFavorites={() => navigate('/favorites')}
+        />
+      )}
+
+      {sizePickerProduct && (
+        <SizePickerSheet
+          product={sizePickerProduct}
+          onClose={() => setSizePickerProduct(null)}
+          onSelectSize={(size) => {
+            pendingCartSizeRef.current = size;
+            setSizePickerProduct(null);
+            topCardRef.current?.resolve('cart');
+          }}
         />
       )}
     </div>

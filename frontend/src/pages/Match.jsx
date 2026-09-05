@@ -3,6 +3,7 @@ import { useSearchParams, useNavigate, Link } from 'react-router-dom';
 import { useFavorites } from '../context/FavoritesContext';
 import { useCart } from '../context/CartContext';
 import usePageMeta from '../hooks/usePageMeta';
+import SizePickerSheet from '../components/SizePickerSheet';
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
 
@@ -202,6 +203,7 @@ function Match() {
   const [slots, setSlots] = useState({ top: [], bottom: [], accessory: [], jacket: [] });
   const [pickerSlot, setPickerSlot] = useState(null);
   const [addingToCart, setAddingToCart] = useState(false);
+  const [sizeQueue, setSizeQueue] = useState([]);
   const [addedHint, setAddedHint] = useState('');
   const [genderOverride, setGenderOverride] = useState(null);
   const [preferredStyle, setPreferredStyle] = useState(() => {
@@ -299,16 +301,41 @@ function Match() {
     slotsToRoll.forEach((slot) => randomizeSlot(slot));
   };
 
+  const showAddedHint = () => {
+    setAddedHint('Dodano zestaw do koszyka ✓');
+    setTimeout(() => setAddedHint(''), 2500);
+  };
+
   const handleAddSetToCart = async () => {
     const items = ['top', 'bottom', 'accessory', 'jacket'].map((s) => slots[s][0]).filter(Boolean);
     if (items.length === 0) return;
+
+    // Elementy z jednym rozmiarem (albo bez rozmiarów) dodajemy od razu; te z wyborem
+    // rozmiaru pytamy po kolei w dolnym okienku — nigdy nie zgadujemy za użytkownika
+    const autoItems = items.filter((item) => !(item.sizes && item.sizes.length > 1));
+    const itemsNeedingSize = items.filter((item) => item.sizes && item.sizes.length > 1);
+
     setAddingToCart(true);
-    for (const item of items) {
+    for (const item of autoItems) {
       await addToCart(item, { size: (item.sizes && item.sizes[0]) || '' });
     }
     setAddingToCart(false);
-    setAddedHint('Dodano zestaw do koszyka ✓');
-    setTimeout(() => setAddedHint(''), 2500);
+
+    if (itemsNeedingSize.length > 0) {
+      setSizeQueue(itemsNeedingSize);
+    } else {
+      showAddedHint();
+    }
+  };
+
+  const currentSizePick = sizeQueue[0] || null;
+
+  const handleSizeQueueSelect = async (size) => {
+    if (!currentSizePick) return;
+    await addToCart(currentSizePick, { size });
+    const rest = sizeQueue.slice(1);
+    setSizeQueue(rest);
+    if (rest.length === 0) showAddedHint();
   };
 
   // Karta prowadzi na realną stronę produktu — id ma format "itemcode/quality/color",
@@ -375,6 +402,14 @@ function Match() {
           items={favoritesForSlot(pickerSlot)}
           onSelect={pickFromFavorites}
           onClose={() => setPickerSlot(null)}
+        />
+      )}
+
+      {currentSizePick && (
+        <SizePickerSheet
+          product={currentSizePick}
+          onClose={() => setSizeQueue((prev) => prev.slice(1))}
+          onSelectSize={handleSizeQueueSelect}
         />
       )}
     </div>
