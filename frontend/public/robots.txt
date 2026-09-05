@@ -1,0 +1,3 @@
+# Projekt dyplomowy — strona nie jest przeznaczona do indeksowania przez wyszukiwarki
+User-agent: *
+Disallow: /

@@ -1,0 +1,183 @@
+/* frontend/src/index.css */
+
+/* Глобальні налаштування шрифту для всього сайту STITCH */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Стилізація посилань та інтерактивних кнопок у хедері */
+.nav-link {
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #000000;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Відступ між текстом та іконкою всередині однієї кнопки */
+}
+
+/* Створення прихованої лінії під текстом за допомогою псевдоелемента */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0); /* Початковий стан: лінія стиснута до 0 */
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom left;
+  transition: transform 0.3s ease-out; /* Ефект плавного малювання лінії */
+}
+
+/* Анімація появи лінії при ховері курсором мишки (лінія застигає і не циклічна) */
+.nav-link:hover::after {
+  transform: scaleX(1); /* Лінія розгортається на всю ширину */
+}
+
+/* Стилі для іконок, щоб вони гарно пасували до тексту */
+.nav-icon {
+  font-size: 20px;
+  line-height: 1;
+}
+
+/* Стилі для каруселі банерів на Home Page */
+.hero-slider {
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out; /* Плавне переливання фото */
+  z-index: 1;
+}
+
+.slide.active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Приглушення світла */
+  display: flex;
+  flex-direction: column;
+  justifyContent: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Стрілочки гортання */
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  color: #fff;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.3s;
+}
+
+.slider-arrow:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.arrow-left { left: 20px; }
+.arrow-right { right: 20px; }
+
+/* Точки-індикатори знизу слайдера */
+.slider-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
+}
+
+.dot.active {
+  background: #ffffff;
+  transform: scale(1.2);
+}
+
+/* Стилі для горизонтальної стрічки товарів а-ля House */
+.product-row-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto; /* Дозволяє гортати вбік */
+  scroll-behavior: smooth;
+  padding: 10px 20px 20px 20px;
+  /* Ховаємо дефолтний скролбар для чистішого вигляду */
+  scrollbar-width: none; /* Firefox */
+}
+
+.product-row-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Картка "Zobacz więcej" в кінці списку */
+.see-more-card {
+  min-width: 200px;
+  height: 280px;
+  background-color: #f9f9f9;
+  border: 1px dashed #d1d5db;
+  display: flex;
+  flex-direction: column;
+  justifyContent: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.see-more-card:hover {
+  background-color: #f3f4f6;
+}
+
+.see-more-text {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #000;
+  margin-top: 10px;
+}

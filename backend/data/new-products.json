@@ -1,0 +1,955 @@
+[
+  {
+    "id": "9001/501/700",
+    "name": "Spodnie w kant z zakładkami",
+    "description": null,
+    "sub_category": "spodnie",
+    "gender": "women",
+    "price": 349.00,
+    "old_price": null,
+    "is_sale": false,
+    "sizes": ["32", "34", "36", "38", "40", "42", "44"],
+    "color": "Ciemny khaki",
+    "style": "Elegancki",
+    "category_id": 2,
+    "image": "https://static.massimodutti.net/assets/public/243b/5ad1/6eae4340ad10/aa830b834386/05028661742-o1/05028661742-o1.jpg?ts=1784553638801&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9002/501/200",
+    "name": "Szerokie spodnie w kant",
+    "description": null,
+    "sub_category": "spodnie",
+    "gender": "women",
+    "price": 329.00,
+    "old_price": null,
+    "is_sale": false,
+    "sizes": ["32", "34", "36", "38", "40", "42", "44"],
+    "color": "Ecru",
+    "style": "Elegancki",
+    "category_id": 2,
+    "image": "https://static.massimodutti.net/assets/public/ada6/e380/3af745e2801b/18df02745055/05030666805-o1/05030666805-o1.jpg?ts=1785330331115&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9003/501/800",
+    "name": "Spodnie garniturowe o prostym kroju",
+    "description": null,
+    "sub_category": "spodnie",
+    "gender": "women",
+    "price": 359.00,
+    "old_price": null,
+    "is_sale": false,
+    "sizes": ["32", "34", "36", "38", "40", "42", "44"],
+    "color": "Czarny",
+    "style": "Elegancki",
+    "category_id": 2,
+    "image": "https://static.massimodutti.net/assets/public/c2b3/559b/0e34409a8bda/2ae5937d90a7/05044507800-o1/05044507800-o1.jpg?ts=1786022137383&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9004/501/620",
+    "name": "Spodnie dzwony w kant",
+    "description": null,
+    "sub_category": "spodnie",
+    "gender": "women",
+    "price": 399.00,
+    "old_price": null,
+    "is_sale": false,
+    "sizes": ["32", "34", "36", "38", "40", "42", "44"],
+    "color": "Ciemny brąz",
+    "style": "Elegancki",
+    "category_id": 2,
+    "image": "https://static.massimodutti.net/assets/public/899b/59ab/94874a12854a/033f485f2eaf/05037672700-o1/05037672700-o1.jpg?ts=1786022134311&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9005/501/800",
+    "name": "Skórzane spodnie capri",
+    "description": null,
+    "sub_category": "spodnie",
+    "gender": "women",
+    "price": 599.00,
+    "old_price": null,
+    "is_sale": false,
+    "sizes": ["32", "34", "36", "38", "40", "42", "44"],
+    "color": "Czarny",
+    "style": "Elegancki",
+    "category_id": 2,
+    "image": "https://static.massimodutti.net/assets/public/d2be/46ce/3fcd41c49fe4/6a9cb9141f31/05300900800-o1/05300900800-o1.jpg?ts=1780318089241&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9006/501/700",
+    "name": "Bluzka z draperią i zawiązanym kołnierzem",
+    "description": null,
+    "sub_category": "bluzka",
+    "gender": "women",
+    "price": 259.00,
+    "old_price": null,
+    "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Taupe",
+    "style": "Elegancki",
+    "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/f2a4/d117/548d42ad8180/cfe61f276fde/05190590507-o1/05190590507-o1.jpg?ts=1785141825639&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9007/501/640",
+    "name": "Bluzka wiązana w pasie z apaszką pod szyją",
+    "description": null,
+    "sub_category": "bluzka",
+    "gender": "women",
+    "price": 289.00,
+    "old_price": null,
+    "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Rdzawy",
+    "style": "Elegancki",
+    "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/a081/4865/cdeb4c37a2e8/69821dbcd0a8/05166542670-o1/05166542670-o1.jpg?ts=1784731480778&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9008/501/200",
+    "name": "Kopertowa bluza z guzikami",
+    "description": null,
+    "sub_category": "bluzka",
+    "gender": "women",
+    "price": 279.00,
+    "old_price": null,
+    "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Złamana biel",
+    "style": "Elegancki",
+    "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/8b77/fedb/09db4d448777/e44205d86926/05112613508-o1/05112613508-o1.jpg?ts=1785333004314&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9009/501/251",
+    "name": "Top z drapowanym dekoltem",
+    "description": null,
+    "sub_category": "top",
+    "gender": "women",
+    "price": 149.00,
+    "old_price": null,
+    "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Biały",
+    "style": "Elegancki",
+    "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/df1b/563a/eb5742eaaf7d/b91afff76888/06275350251-o1/06275350251-o1.jpg?ts=1785938869234&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9010/501/428",
+    "name": "Koszula z satyny",
+    "description": null,
+    "sub_category": "koszula",
+    "gender": "women",
+    "price": 249.00,
+    "old_price": null,
+    "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Stalowy niebieski",
+    "style": "Elegancki",
+    "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/17a6/3649/841a48c3bf5c/5c24392c9591/05157557819-o1/05157557819-o1.jpg?ts=1783954392269&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9011/501/423",
+    "name": "Lniany top wiązany na szyi",
+    "description": null,
+    "sub_category": "top",
+    "gender": "women",
+    "price": 179.00,
+    "old_price": null,
+    "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Jasnoniebieski",
+    "style": "Elegancki",
+    "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/e06e/9e15/8bdd435ba3ec/c1bdc757185f/05182746403-o1/05182746403-o1.jpg?ts=1778828870657&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9012/501/620",
+    "name": "Koszula z satyny",
+    "description": null,
+    "sub_category": "koszula",
+    "gender": "women",
+    "price": 249.00,
+    "old_price": null,
+    "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Espresso",
+    "style": "Elegancki",
+    "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/4368/e207/9f8b4c1985cf/bfdb7de27dda/05159559717-o1/05159559717-o1.jpg?ts=1785330363383&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9013/501/273",
+    "name": "Lniany top wiązany na szyi",
+    "description": null,
+    "sub_category": "top",
+    "gender": "women",
+    "price": 179.00,
+    "old_price": null,
+    "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Piaskowy",
+    "style": "Elegancki",
+    "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/1925/ac05/006249e89eae/41105a6da595/05120521806-o1/05120521806-o1.jpg?ts=1778679767520&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9014/501/505",
+    "name": "Sweter z półgolfem i krótkim rękawem",
+    "description": null, "sub_category": "sweter", "gender": "women", "price": 199.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Pudrowy róż",
+    "style": "Elegancki",
+    "category_id": 5,
+    "image": "https://static.massimodutti.net/assets/public/e952/e50b/37e94f94bba8/b3571f1e8c84/05699578622-o1/05699578622-o1.jpg?ts=1783007398923&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9015/501/800",
+    "name": "Sweter z golfem",
+    "description": null, "sub_category": "sweter", "gender": "women", "price": 229.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Czarny",
+    "style": "Elegancki",
+    "category_id": 5,
+    "image": "https://static.massimodutti.net/assets/public/799a/6a52/c7254402b7c8/3aeaf8875d73/05616585800-o1/05616585800-o1.jpg?ts=1785141833351&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9016/501/433",
+    "name": "Kardigan ze stójką na zamek",
+    "description": null, "sub_category": "kardigan", "gender": "women", "price": 259.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Granatowy",
+    "style": "Elegancki",
+    "category_id": 5,
+    "image": "https://static.massimodutti.net/assets/public/daab/e094/22824ed0a341/892bf41521d0/05928527401-o1/05928527401-o1.jpg?ts=1785252895542&f=auto&w=850",
+    "collection": "regular"
+  },
+  {
+    "id": "9017/501/620",
+    "name": "Skórzana kurtka ramoneska oversize",
+    "description": null, "sub_category": "kurtka", "gender": "women", "price": 899.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Ciemny brąz",
+    "style": "Elegancki",
+    "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/d916/0a5d/c0fe407c9b9e/8b876112507d/04759659700-o1/04759659700-o1.jpg?ts=1784792225877&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9018/501/274",
+    "name": "Zamszowy trencz wiązany paskiem",
+    "description": null, "sub_category": "płaszcz", "gender": "women", "price": 799.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Beżowy",
+    "style": "Elegancki",
+    "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/e194/e1ef/77fb498b9f8a/cc34ef1706b7/04725726071-o1/04725726071-o1.jpg?ts=1779091569057&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9019/501/700",
+    "name": "Zamszowa kurtka koszulowa",
+    "description": null, "sub_category": "kurtka", "gender": "women", "price": 699.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Khaki",
+    "style": "Elegancki",
+    "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/9ecc/5715/87464692a46c/8816a7f28181/04716675505-o1/04716675505-o1.jpg?ts=1776421679474&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9020/501/621",
+    "name": "Krótka zamszowa kurtka z kieszeniami",
+    "description": null, "sub_category": "kurtka", "gender": "women", "price": 649.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Kasztanowy",
+    "style": "Elegancki",
+    "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/5aab/84a8/db1843538fa7/f1039df9f13d/04751611830-o1/04751611830-o1.jpg?ts=1775042964603&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9021/501/731",
+    "name": "Dwurzędowa marynarka",
+    "description": null, "sub_category": "marynarka", "gender": "women", "price": 499.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Butelkowa zieleń",
+    "style": "Elegancki",
+    "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/ffa0/5398/a3074c99ab35/27276730ef9c/06000601401-o1/06000601401-o1.jpg?ts=1779893472796&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9022/501/620",
+    "name": "Marynarka o klasycznym kroju",
+    "description": null, "sub_category": "marynarka", "gender": "women", "price": 459.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Ciemny brąz",
+    "style": "Elegancki",
+    "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/6cd5/90b0/e7ac48af9996/c7d7bdebf353/06046672700-o1/06046672700-o1.jpg?ts=1785252895341&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9023/501/800",
+    "name": "Marynarka bez zapięcia z kontrastową lamówką",
+    "description": null, "sub_category": "marynarka", "gender": "women", "price": 479.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Czarny",
+    "style": "Elegancki",
+    "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/3c36/b7c7/2d2d44ffa4ca/c3bfd53c5ec2/06001602800-o1/06001602800-o1.jpg?ts=1780654588440&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9024/501/401",
+    "name": "Jeansowa kamizelka wiązana z tyłu",
+    "description": null, "sub_category": "kamizelka", "gender": "women", "price": 199.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "color": "Granatowy denim",
+    "style": "Elegancki",
+    "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/0c6a/b4fe/a7b448ccb624/e997d57d15ea/05186586407-o1/05186586407-o1.jpg?ts=1776148992917&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9025/501/900",
+    "name": "Naszyjnik krawatowy",
+    "description": null, "sub_category": "biżuteria", "gender": "women", "price": 129.00, "old_price": null, "is_sale": false,
+    "sizes": ["UNI"], "color": "Srebrny", "style": "Elegancki", "category_id": 6,
+    "image": "https://static.massimodutti.net/assets/public/3277/6efb/f5ad433ebb39/6834a4d392ec/04602821808-o1/04602821808-o1.jpg?ts=1785939115827&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9026/501/901",
+    "name": "Naszyjnik ze sznurkiem i owalną zawieszką",
+    "description": null, "sub_category": "biżuteria", "gender": "women", "price": 99.00, "old_price": null, "is_sale": false,
+    "sizes": ["UNI"], "color": "Złoty", "style": "Elegancki", "category_id": 6,
+    "image": "https://static.massimodutti.net/assets/public/93fd/d12f/67d2446083d0/0b9f73642aa2/04602746303-o1/04602746303-o1.jpg?ts=1778744133893&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9027/501/800",
+    "name": "Naszyjnik z czarnych korali",
+    "description": null, "sub_category": "biżuteria", "gender": "women", "price": 89.00, "old_price": null, "is_sale": false,
+    "sizes": ["UNI"], "color": "Czarny", "style": "Elegancki", "category_id": 6,
+    "image": "https://static.massimodutti.net/assets/public/0ead/b270/ba644f58a4ab/2b03b47907db/04602852800-o1/04602852800-o1.jpg?ts=1783665995534&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9028/501/800",
+    "name": "Skórzany pasek z metalową klamrą",
+    "description": null, "sub_category": "pasek", "gender": "women", "price": 129.00, "old_price": null, "is_sale": false,
+    "sizes": ["UNI"], "color": "Czarny", "style": "Elegancki", "category_id": 6,
+    "image": "https://static.massimodutti.net/assets/public/f86a/9135/1439453ab315/d3a55eb06bb4/06199660800-o15/06199660800-o15.jpg?ts=1758092716825&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9029/501/900",
+    "name": "Naszyjnik łańcuch",
+    "description": null, "sub_category": "biżuteria", "gender": "women", "price": 159.00, "old_price": null, "is_sale": false,
+    "sizes": ["UNI"], "color": "Srebrny", "style": "Elegancki", "category_id": 6,
+    "image": "https://static.massimodutti.net/assets/public/8bae/964b/c2434203934e/d840844dab2e/04602820808-o1/04602820808-o1.jpg?ts=1779868064141&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9030/501/800",
+    "name": "Pleciona kopertówka skórzana",
+    "description": null, "sub_category": "torebka", "gender": "women", "price": 259.00, "old_price": null, "is_sale": false,
+    "sizes": ["UNI"], "color": "Czarny", "style": "Elegancki", "category_id": 6,
+    "image": "https://static.massimodutti.net/assets/public/57c1/42a2/d848400aa3f6/d3fbca3e5df1/04647607800-o15/04647607800-o15.jpg?ts=1776761066556&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9031/501/700",
+    "name": "Chinosy o prostym kroju",
+    "description": null, "sub_category": "spodnie", "gender": "men", "price": 299.00, "old_price": null, "is_sale": false,
+    "sizes": ["32", "34", "36", "38", "40", "42", "44", "46"], "color": "Beżowy", "style": "Elegancki", "category_id": 2,
+    "image": "https://static.massimodutti.net/assets/public/2364/72bb/1d104790a885/23f1d2189d87/03698528505-o1/03698528505-o1.jpg?ts=1784726039544&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9032/501/806",
+    "name": "Spodnie ze zaszewkami, zwężane",
+    "description": null, "sub_category": "spodnie", "gender": "men", "price": 329.00, "old_price": null, "is_sale": false,
+    "sizes": ["32", "34", "36", "38", "40", "42", "44", "46"], "color": "Grafitowy", "style": "Elegancki", "category_id": 2,
+    "image": "https://static.massimodutti.net/assets/public/484c/c94c/f0d841698ece/bf9c0bf1e178/03704522401-o1/03704522401-o1.jpg?ts=1782824322215&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9033/501/300",
+    "name": "Wełniane spodnie z troczkiem w pasie",
+    "description": null, "sub_category": "spodnie", "gender": "men", "price": 349.00, "old_price": null, "is_sale": false,
+    "sizes": ["32", "34", "36", "38", "40", "42", "44", "46"], "color": "Szary melanż", "style": "Elegancki", "category_id": 2,
+    "image": "https://static.massimodutti.net/assets/public/c22a/150b/4a364a5a8d69/df43758f8ad5/02862378802-o1/02862378802-o1.jpg?ts=1782824792829&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9034/501/700",
+    "name": "Spodnie o kroju barrel, zaszewki",
+    "description": null, "sub_category": "spodnie", "gender": "men", "price": 319.00, "old_price": null, "is_sale": false,
+    "sizes": ["32", "34", "36", "38", "40", "42", "44", "46"], "color": "Oliwkowy", "style": "Elegancki", "category_id": 2,
+    "image": "https://static.massimodutti.net/assets/public/a514/bcff/f14f40c08bc9/d239d3f96341/00177014500-o1/00177014500-o1.jpg?ts=1785854664614&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9035/501/433",
+    "name": "Polo z krótkim rękawem",
+    "description": null, "sub_category": "polo", "gender": "men", "price": 179.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Granatowy", "style": "Elegancki", "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/3e59/c251/031f473baa93/ebc49b9e508b/00766196404-o1/00766196404-o1.jpg?ts=1778755742566&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9036/501/251",
+    "name": "Polo bez zapięcia",
+    "description": null, "sub_category": "polo", "gender": "men", "price": 169.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Biały", "style": "Elegancki", "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/42ff/3766/242743c7b78e/f700029d7429/00766196250-o1/00766196250-o1.jpg?ts=1778755735318&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9037/501/640",
+    "name": "Lniane polo",
+    "description": null, "sub_category": "polo", "gender": "men", "price": 199.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Terakotowy", "style": "Elegancki", "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/65b5/d6b2/432c4a41900e/d18869f97b22/00720176713-o1/00720176713-o1.jpg?ts=1778671024651&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9038/501/800",
+    "name": "Polo w paski",
+    "description": null, "sub_category": "polo", "gender": "men", "price": 189.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarno-ecru", "style": "Elegancki", "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/d148/16d0/71554ab4be2d/68cfc73c4b3c/01336201401-o1/01336201401-o1.jpg?ts=1778767422323&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9039/501/423",
+    "name": "Koszula w kratkę",
+    "description": null, "sub_category": "koszula", "gender": "men", "price": 229.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Błękitny", "style": "Elegancki", "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/1c11/42b9/f3314720a521/94690b3b937c/01924297400-o1/01924297400-o1.jpg?ts=1785413394405&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9040/501/433",
+    "name": "Koszula o dopasowanym kroju",
+    "description": null, "sub_category": "koszula", "gender": "men", "price": 239.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Granatowy", "style": "Elegancki", "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/d6e4/78dd/47f2472f845a/4b94175de707/02110250401-o1/02110250401-o1.jpg?ts=1785854667153&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9041/501/685",
+    "name": "Lniana koszula",
+    "description": null, "sub_category": "koszula", "gender": "men", "price": 219.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Morelowy", "style": "Elegancki", "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/01f5/f458/80084f8fa7a1/04f43812330e/02081264721-o1/02081264721-o1.jpg?ts=1780908120487&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9042/501/251",
+    "name": "Lniana koszula",
+    "description": null, "sub_category": "koszula", "gender": "men", "price": 219.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Złamana biel", "style": "Elegancki", "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/1157/8b66/1c4f4b668914/7d68d23e2fec/01966277712-o1/01966277712-o1.jpg?ts=1778669973990&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9043/501/423",
+    "name": "Koszula klasyczna",
+    "description": null, "sub_category": "koszula", "gender": "men", "price": 229.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Błękitny", "style": "Elegancki", "category_id": 1,
+    "image": "https://static.massimodutti.net/assets/public/18ea/9d83/1546434ba081/ae9866001f99/03681546441-o1/03681546441-o1.jpg?ts=1776945512069&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9044/501/620",
+    "name": "Marynarka z nakładanymi kieszeniami",
+    "description": null, "sub_category": "marynarka", "gender": "men", "price": 499.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Brązowy melanż", "style": "Elegancki", "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/c949/1aa4/319a424199d5/62a263b9a0a2/02597365716-o1/02597365716-o1.jpg?ts=1782981245901&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9045/501/621",
+    "name": "Wełniana marynarka o klasycznym kroju",
+    "description": null, "sub_category": "marynarka", "gender": "men", "price": 549.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Ciemny brąz", "style": "Elegancki", "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/3464/e8a2/c8604f12962e/37197c98cd2a/02585372717-o1/02585372717-o1.jpg?ts=1781534998223&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9046/501/800",
+    "name": "Marynarka z nakładanymi kieszeniami",
+    "description": null, "sub_category": "marynarka", "gender": "men", "price": 499.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarny", "style": "Elegancki", "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/2a2d/4e9f/ed3f4a109ec0/a6b2bd2e3614/02584397462-o1/02584397462-o1.jpg?ts=1782989171226&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9047/501/700",
+    "name": "Zamszowa kurtka koszulowa",
+    "description": null, "sub_category": "kurtka", "gender": "men", "price": 699.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Camelowy", "style": "Elegancki", "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/e8bf/91a0/3ef440709bf8/fce42c019321/03409478734-o1/03409478734-o1.jpg?ts=1779874862733&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9048/501/806",
+    "name": "Wełniana kurtka bomberka ze stójką",
+    "description": null, "sub_category": "kurtka", "gender": "men", "price": 649.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Antracytowy", "style": "Elegancki", "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/7380/733a/358442c1b644/d4d2e2a15d60/02612378802-o1/02612378802-o1.jpg?ts=1782909309236&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9049/501/830",
+    "name": "Jeansowa kurtka z kieszeniami na klapkę",
+    "description": null, "sub_category": "kurtka", "gender": "men", "price": 399.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Sprany czarny", "style": "Elegancki", "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/7809/247d/ee3a4204a347/ed8f32c792a9/00507100405-o1/00507100405-o1.jpg?ts=1785164333423&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9050/501/274",
+    "name": "Płaszcz typu trencz",
+    "description": null, "sub_category": "płaszcz", "gender": "men", "price": 799.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Beżowy", "style": "Elegancki", "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/73ba/d34c/09f343ba81df/9eb82e1711d4/03238404752-o1/03238404752-o1.jpg?ts=1783346214431&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9051/501/620",
+    "name": "Długi płaszcz o prostym kroju",
+    "description": null, "sub_category": "płaszcz", "gender": "men", "price": 849.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Ciemny brąz", "style": "Elegancki", "category_id": 4,
+    "image": "https://static.massimodutti.net/assets/public/0630/aa31/9a62408c86ba/dd0dbc3e2d00/03250412717-o1/03250412717-o1.jpg?ts=1785336078515&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9052/501/620",
+    "name": "Zamszowa torba podróżna",
+    "description": null, "sub_category": "torba", "gender": "men", "price": 599.00, "old_price": null, "is_sale": false,
+    "sizes": ["UNI"], "color": "Ciemny brąz", "style": "Elegancki", "category_id": 6,
+    "image": "https://static.massimodutti.net/assets/public/1a44/2d86/d3a64dd5a84e/8bc6da9eeda6/02552315700-o1/02552315700-o1.jpg?ts=1764761525122&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9053/501/621",
+    "name": "Zamszowy pasek z metalową klamrą",
+    "description": null, "sub_category": "pasek", "gender": "men", "price": 149.00, "old_price": null, "is_sale": false,
+    "sizes": ["UNI"], "color": "Brązowy", "style": "Elegancki", "category_id": 6,
+    "image": "https://static.massimodutti.net/assets/public/199f/ca32/06ce44c29dd7/3f8c702a2325/02742305700-o1/02742305700-o1.jpg?ts=1779445370063&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9054/501/800",
+    "name": "Skórzany portfel",
+    "description": null, "sub_category": "portfel", "gender": "men", "price": 179.00, "old_price": null, "is_sale": false,
+    "sizes": ["UNI"], "color": "Czarny", "style": "Elegancki", "category_id": 6,
+    "image": "https://static.massimodutti.net/assets/public/45bd/e710/fb20429d9208/a6257893c879/02784310800-o1/02784310800-o1.jpg?ts=1784558181930&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9055/501/433",
+    "name": "Krawat jedwabny z mikrowzorem",
+    "description": null, "sub_category": "krawat", "gender": "men", "price": 159.00, "old_price": null, "is_sale": false,
+    "sizes": ["UNI"], "color": "Granatowy", "style": "Elegancki", "category_id": 6,
+    "image": "https://static.massimodutti.net/assets/public/1b3f/986c/04b14d5eb169/583fdb693ed6/03660560401-o1/03660560401-o1.jpg?ts=1779450039390&w=400&f=auto",
+    "collection": "regular"
+  },
+  {
+    "id": "9056/601/800",
+    "name": "Top z koronkowymi rękawami i wiązaniem w pasie",
+    "description": null, "sub_category": "top", "gender": "women", "price": 99.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L"], "color": "Czarny", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/2/0/204KB-99X-051-1-1274110.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9057/601/800",
+    "name": "Oversize T-shirt z nadrukiem graficznym",
+    "description": null, "sub_category": "t-shirt", "gender": "women", "price": 89.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/8/1/819FL-90M-051-1-1267029.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9058/601/273",
+    "name": "Oversize T-shirt z żartobliwym nadrukiem",
+    "description": null, "sub_category": "t-shirt", "gender": "women", "price": 79.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"], "color": "Ecru", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/2/2/228CV-02J-050-1-1309887.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9059/601/717",
+    "name": "Crop top w paski, oversize",
+    "description": null, "sub_category": "top", "gender": "women", "price": 89.00, "old_price": null, "is_sale": false,
+    "sizes": ["XXS", "XS", "S", "M", "L"], "color": "Turkusowo-brązowy", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/1/7/173KB-56X-050-1-1268322.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9060/601/800",
+    "name": "Oversize T-shirt z nadrukiem grunge",
+    "description": null, "sub_category": "t-shirt", "gender": "women", "price": 89.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/0/2/020KB-99X-050-1-1263979.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9061/601/606",
+    "name": "Crop top w paski z gumką",
+    "description": null, "sub_category": "top", "gender": "women", "price": 99.00, "old_price": null, "is_sale": false,
+    "sizes": ["XXS", "XS", "S", "M", "L"], "color": "Bordowo-czarny", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/0/2/023KB-83X-050-1-1263994.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9062/601/800",
+    "name": "Oversize T-shirt z nadrukiem rockowym",
+    "description": null, "sub_category": "t-shirt", "gender": "women", "price": 89.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/3/1/316HX-99M-050-1-1256897.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9063/601/800",
+    "name": "Oversize T-shirt z nadrukiem szopów",
+    "description": null, "sub_category": "t-shirt", "gender": "women", "price": 79.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/7/3/733CU-99X-050-1-1300741.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9064/601/800",
+    "name": "Oversize T-shirt z nadrukiem graficznym",
+    "description": null, "sub_category": "t-shirt", "gender": "women", "price": 89.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/0/5/054FM-99X-050-1-1248724.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9065/601/830",
+    "name": "Długie jeansowe szorty oversize z nadrukiem",
+    "description": null, "sub_category": "szorty", "gender": "women", "price": 129.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"], "color": "Sprany czarny", "style": "Y2K", "category_id": 3,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/0/0/006KA-99J-050-1-1260057.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9066/601/700",
+    "name": "Szorty cargo w moro",
+    "description": null, "sub_category": "szorty", "gender": "women", "price": 119.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"], "color": "Khaki moro", "style": "Y2K", "category_id": 3,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/0/5/053HX-78M-050-1-1300732.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9067/601/830",
+    "name": "Bardzo krótkie jeansowe szorty z nadrukiem",
+    "description": null, "sub_category": "szorty", "gender": "women", "price": 89.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L"], "color": "Czarny", "style": "Y2K", "category_id": 3,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/0/0/005KA-99J-050-1-1274105.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9068/601/806",
+    "name": "Dresowe szorty z nadrukiem",
+    "description": null, "sub_category": "szorty", "gender": "women", "price": 99.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"], "color": "Ciemnoszary", "style": "Y2K", "category_id": 3,
+    "image": "https://static.cropp.com/media/catalog/product/2/5/251CU-99X-050-1-1000282.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9069/601/800",
+    "name": "Bluza rozpinana z kapturem i cyrkoniami",
+    "description": null, "sub_category": "bluza", "gender": "women", "price": 229.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 5,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/1/6/165KB-99X-050-1-1254352.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9070/601/606",
+    "name": "Krótka bluza rozpinana z naszywkami",
+    "description": null, "sub_category": "bluza", "gender": "women", "price": 199.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"], "color": "Bordowy", "style": "Y2K", "category_id": 5,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/1/6/161KB-83X-050-1-1263711.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9071/601/401",
+    "name": "Jeansy baggy z haftem smoka",
+    "description": null, "sub_category": "jeansy", "gender": "women", "price": 249.00, "old_price": null, "is_sale": false,
+    "sizes": ["32", "34", "36", "38", "40", "42"], "color": "Ciemnoniebieski", "style": "Y2K", "category_id": 2,
+    "image": "https://static.cropp.com/media/catalog/product/8/1/812CT-59J-050-1-1199982.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9072/601/433",
+    "name": "Spodnie dresowe typu parachute z lampasami",
+    "description": null, "sub_category": "spodnie", "gender": "women", "price": 179.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"], "color": "Granatowy", "style": "Y2K", "category_id": 2,
+    "image": "https://static.cropp.com/media/catalog/product/6/9/699FL-59X-050-1-1236487.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9073/601/800",
+    "name": "Szerokie spodnie dresowe z lampasami",
+    "description": null, "sub_category": "spodnie", "gender": "women", "price": 179.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 2,
+    "image": "https://static.cropp.com/media/catalog/product/2/0/201HX-99X-050-1-1149487_6.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9074/601/606",
+    "name": "Krótka pikowana kamizelka ze skóry ekologicznej",
+    "description": null, "sub_category": "kamizelka", "gender": "women", "price": 229.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L"], "color": "Bordowy", "style": "Y2K", "category_id": 4,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/2/1/210KA-93X-050-1-1288547.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9075/601/800",
+    "name": "Krótka kurtka jeansowo-dresowa",
+    "description": null, "sub_category": "kurtka", "gender": "women", "price": 199.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L"], "color": "Czarny", "style": "Y2K", "category_id": 4,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/6/6/669CT-99J-050-1-962159_1.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9076/601/620",
+    "name": "Kurtka ramoneska ze skóry ekologicznej z futrzanym kołnierzem",
+    "description": null, "sub_category": "kurtka", "gender": "women", "price": 349.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L"], "color": "Brązowy", "style": "Y2K", "category_id": 4,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/0/8/085CU-88X-050-1-929480_12.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9077/601/700",
+    "name": "Długi jeansowy płaszcz z efektem sprania",
+    "description": null, "sub_category": "płaszcz", "gender": "women", "price": 399.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L"], "color": "Sprana oliwka", "style": "Y2K", "category_id": 4,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/3/2/326CT-50J-050-1-963851_3.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9078/601/423",
+    "name": "Jeansowa kurtka z nadrukiem graffiti",
+    "description": null, "sub_category": "kurtka", "gender": "women", "price": 249.00, "old_price": null, "is_sale": false,
+    "sizes": ["XS", "S", "M", "L"], "color": "Jasnoniebieski", "style": "Y2K", "category_id": 4,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/6/6/662CT-50J-050-1-980541_2.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9079/601/806",
+    "name": "Oversize T-shirt z nadrukiem graficznym",
+    "description": null, "sub_category": "t-shirt", "gender": "men", "price": 89.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Grafitowy", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/7/5/757FN-99X-050-1-1259136.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9080/601/830",
+    "name": "Oversize T-shirt z nadrukiem gotyckim",
+    "description": null, "sub_category": "t-shirt", "gender": "men", "price": 89.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Sprany czarny", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/7/4/744HY-99X-051-1-1245401.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9081/601/800",
+    "name": "Oversize T-shirt z nadrukiem wyścigowym",
+    "description": null, "sub_category": "t-shirt", "gender": "men", "price": 89.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/6/5/652HY-99X-050-1-1230459.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9082/601/800",
+    "name": "Oversize T-shirt z żartobliwym nadrukiem",
+    "description": null, "sub_category": "t-shirt", "gender": "men", "price": 79.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/7/7/775HY-99X-050-1-1271353.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9083/601/433",
+    "name": "Oversize T-shirt z nadrukiem samochodowym",
+    "description": null, "sub_category": "t-shirt", "gender": "men", "price": 89.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Granatowy", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/5/7/577FN-59X-050-1-1300738.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9084/601/830",
+    "name": "Oversize T-shirt z nadrukiem w stylu japońskim",
+    "description": null, "sub_category": "t-shirt", "gender": "men", "price": 89.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Sprany grafitowy", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/5/3/534DE-94X-051-1-1282616.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9085/601/800",
+    "name": "Oversize T-shirt z nadrukiem superbohatera",
+    "description": null, "sub_category": "t-shirt", "gender": "men", "price": 89.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/7/3/738HY-99X-051-1-1279233.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9086/601/830",
+    "name": "Oversize T-shirt z naszywką w stylu japońskim",
+    "description": null, "sub_category": "t-shirt", "gender": "men", "price": 99.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Sprany czarny", "style": "Y2K", "category_id": 1,
+    "image": "https://static.cropp.com/media/catalog/product/5/6/566DE-99X-051-1-1278637.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9087/601/800",
+    "name": "Dresowe szorty z nadrukiem smoków",
+    "description": null, "sub_category": "szorty", "gender": "men", "price": 109.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 3,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/1/2/124HY-99X-050-1-1194915.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9088/601/251",
+    "name": "Szorty koszykarskie z nadrukiem graffiti",
+    "description": null, "sub_category": "szorty", "gender": "men", "price": 99.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Biały", "style": "Y2K", "category_id": 3,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/1/3/138HY-00X-050-1-1253653.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9089/601/594",
+    "name": "Siatkowe szorty koszykarskie z nadrukiem",
+    "description": null, "sub_category": "szorty", "gender": "men", "price": 99.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Fioletowy", "style": "Y2K", "category_id": 3,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/3/5/354DE-45X-050-1-1050656_1.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9090/601/800",
+    "name": "Dresowe szorty z efektem rozprysku farby",
+    "description": null, "sub_category": "szorty", "gender": "men", "price": 109.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 3,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/1/2/122HY-99X-050-1-1196726_1.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9091/601/810",
+    "name": "Dresowe szorty cargo",
+    "description": null, "sub_category": "szorty", "gender": "men", "price": 109.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Szary", "style": "Y2K", "category_id": 3,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/1/3/131HY-90X-050-1-1199875_1.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9092/601/423",
+    "name": "Jeansy baggy z nadrukiem",
+    "description": null, "sub_category": "jeansy", "gender": "men", "price": 249.00, "old_price": null, "is_sale": false,
+    "sizes": ["32", "34", "36", "38", "40", "42", "44", "46"], "color": "Jasnoniebieski", "style": "Y2K", "category_id": 2,
+    "image": "https://static.cropp.com/media/catalog/product/7/0/703HX-50J-050-1-1204490_2.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9093/601/810",
+    "name": "Jeansy baggy sprane",
+    "description": null, "sub_category": "jeansy", "gender": "men", "price": 229.00, "old_price": null, "is_sale": false,
+    "sizes": ["32", "34", "36", "38", "40", "42", "44", "46"], "color": "Ciemnoszary", "style": "Y2K", "category_id": 2,
+    "image": "https://static.cropp.com/media/catalog/product/7/0/707HX-90J-050-1-1195257_9.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9094/601/800",
+    "name": "Bluza z kapturem i nadrukiem superbohatera",
+    "description": null, "sub_category": "bluza", "gender": "men", "price": 219.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 5,
+    "image": "https://static.cropp.com/media/catalog/product/3/1/310KD-99X-051-1-1279219.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9095/601/800",
+    "name": "Bluza z kapturem i nadrukiem pajęczyny",
+    "description": null, "sub_category": "bluza", "gender": "men", "price": 199.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 5,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/3/0/308KD-99X-050-1-1243249.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9096/601/800",
+    "name": "Bluza z kapturem i nadrukiem wyścigowym",
+    "description": null, "sub_category": "bluza", "gender": "men", "price": 199.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 5,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/3/9/393KD-99X-051-1-1278626.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9097/601/800",
+    "name": "Bluza z kapturem z żartobliwym nadrukiem",
+    "description": null, "sub_category": "bluza", "gender": "men", "price": 199.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 5,
+    "image": "https://static.cropp.com/media/catalog/product/3/0/305KD-99X-051-1-1254358.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9098/601/800",
+    "name": "Bluza z kapturem z nadrukiem w stylu manga",
+    "description": null, "sub_category": "bluza", "gender": "men", "price": 199.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 5,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/9/4/945FM-99X-050-1-1115827_1.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9099/601/830",
+    "name": "Jeansowa kurtka z kapturem i nadrukiem tribal",
+    "description": null, "sub_category": "kurtka", "gender": "men", "price": 249.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Sprany czarny", "style": "Y2K", "category_id": 4,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/7/1/718FO-99J-050-1-1275187.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9100/601/800",
+    "name": "Pikowana kamizelka z nadrukiem tie-dye",
+    "description": null, "sub_category": "kamizelka", "gender": "men", "price": 199.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarno-biały", "style": "Y2K", "category_id": 4,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/7/8/782IX-99P-050-1-1254366.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9101/601/810",
+    "name": "Kurtka z kapturem w moro",
+    "description": null, "sub_category": "kurtka", "gender": "men", "price": 249.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Szare moro", "style": "Y2K", "category_id": 4,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/2/0/204FR-90X-050-1-1155449_4.jpg",
+    "collection": "regular"
+  },
+  {
+    "id": "9102/601/800",
+    "name": "Pikowana kamizelka",
+    "description": null, "sub_category": "kamizelka", "gender": "men", "price": 179.00, "old_price": null, "is_sale": false,
+    "sizes": ["S", "M", "L", "XL"], "color": "Czarny", "style": "Y2K", "category_id": 4,
+    "image": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/9/5/950HX-99X-050-1-1141232_1.jpg",
+    "collection": "regular"
+  }
+]
