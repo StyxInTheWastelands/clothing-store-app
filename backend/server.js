@@ -850,7 +850,8 @@ app.get('/api/feed', optionalAuth, async (req, res) => {
   }
 });
 
-// Uruchomienie serwera
-app.listen(5000, () => {
-  console.log('Serwer działa na porcie 5000');
+// Uruchomienie serwera — PORT z env, bo hosting (np. Render) przydziela go dynamicznie
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`Serwer działa na porcie ${PORT}`);
 });
