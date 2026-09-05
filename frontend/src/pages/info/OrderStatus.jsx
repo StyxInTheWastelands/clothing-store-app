@@ -65,7 +65,7 @@ function OrderStatus() {
   const currentStep = order ? order.timeline.filter((s) => s.done).length : 0;
 
   return (
-    <div style={backgroundContainerStyle}>
+    <div style={{ ...backgroundContainerStyle, padding: isMobile ? '0' : '40px 0' }}>
       <div style={{
         width: '100%',
         maxWidth: '700px',

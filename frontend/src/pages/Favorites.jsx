@@ -121,7 +121,7 @@ function Favorites() {
 
         {/* PRZYCISK PRZEJŚCIA DO REKOMENDACJI */}
         <div style={{ textAlign: 'center', marginTop: '20px' }}>
-          <button style={recommendationsRedirectButtonStyle}>
+          <button onClick={() => navigate('/match')} style={recommendationsRedirectButtonStyle}>
             Przejdź do inteligentnych rekomendacji
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ marginLeft: '10px', verticalAlign: 'middle' }}>
               <line x1="5" y1="12" x2="19" y2="12"></line>

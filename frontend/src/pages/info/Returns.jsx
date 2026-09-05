@@ -96,7 +96,7 @@ function Returns() {
   };
 
   return (
-    <div style={backgroundContainerStyle}>
+    <div style={{ ...backgroundContainerStyle, padding: isMobile ? '0' : '40px 0' }}>
       <div style={{
         width: '100%',
         maxWidth: '1100px',

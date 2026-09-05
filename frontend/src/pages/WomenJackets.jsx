@@ -53,14 +53,14 @@ function WomenJackets() {
 
   if (loading) {
     return (
-      <div style={{ ...backgroundContainerStyle, justifyContent: 'center' }}>
+      <div style={{ ...backgroundContainerStyle, justifyContent: 'center', padding: isMobile ? '0' : '40px 0' }}>
         <h2 style={{ color: '#fff', fontSize: '20px' }}>Ładowanie kurtek...</h2>
       </div>
     );
   }
 
   return (
-    <div style={backgroundContainerStyle}>
+    <div style={{ ...backgroundContainerStyle, padding: isMobile ? '0' : '40px 0' }}>
       <div style={{
         width: '100%',
         maxWidth: '1200px', 
@@ -108,7 +108,7 @@ function WomenJackets() {
                 <Link 
                   to={`/product/${product.id}`} 
                   key={product.id} 
-                  style={{ textDecoration: 'none', color: 'inherit', display: 'block', width: '100%', maxWidth: '230px' }}
+                  style={{ textDecoration: 'none', color: 'inherit', display: 'block', width: '100%', maxWidth: '230px', minWidth: 0 }}
                 >
                   <div className="product-card" style={productCardStyle}>
                     

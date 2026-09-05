@@ -1,6 +1,13 @@
 /* frontend/src/index.css */
 
 /* Глобальні налаштування шрифту для всього сайту STITCH */
+html, body {
+  /* Blokuje poziomy scroll strony — bez tego przeciągane/animowane karty
+     (np. w Feed) wychodzą transformem poza swój kontener i poszerzają
+     całą stronę w bok */
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
